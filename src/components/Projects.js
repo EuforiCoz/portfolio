@@ -7,6 +7,9 @@ import project02b from "../assets/project02b.PNG";
 import project02c from "../assets/project02bc.PNG";
 import project03b from "../assets/projects03b.PNG";
 import project03c from "../assets/projects03c.PNG";
+import project04 from "../assets/project04.PNG";
+import project04b from "../assets/project04b.PNG";
+import project04c from "../assets/project04c.PNG";
 import {AiFillHtml5} from "react-icons/ai";
 import {IoLogoCss3} from "react-icons/io";
 import {BiLogoJavascript} from "react-icons/bi";
@@ -84,6 +87,26 @@ const Projects = () => {
                     <BiLogoJavascript size="50px"/>
                   </div>
                   <a className="btn mt-4" style={{backgroundColor: "white", color: "#1190CB"}} href="https://64b087b734d49656b598b184--bucolic-lollipop-0e8c9c.netlify.app/menu.html" target="_blank">Ver proyecto</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="mb-3 w-75 mx-auto text-white"  style={{backgroundColor: "#1190CB"}}>
+            <div class="row g-0">
+              <div class="col-md-6">
+                <Carousel carrouselId="carousel4" img1={project04} img2={project04b} img3={project04c} />
+              </div>
+              <div class="col-md-6">
+                <div class="card-body">
+                  <h2 class="card-title">Arkanoid</h2>
+                  <p class="card-text" style={{fontSize: "20px"}}>Fue mi primer proyecto y además mi primer juego. Se trata de un videojuego muy conocido llamado Arkanoid. Está hecho con las tecnologías más básicas</p>
+                  <p style={{fontSize: "20px"}}>Realizado con:</p>
+                  <div className="d-flex flex-row gap-3">
+                    <AiFillHtml5 size="50px"/>
+                    <IoLogoCss3 size="50px"/>
+                    <BiLogoJavascript size="50px"/>
+                  </div>
+                  <a className="btn mt-4" style={{backgroundColor: "white", color: "#1190CB"}} href="https://64b148b97a9b59165499238e--glittering-cocada-7152bf.netlify.app/" target="_blank">Ver proyecto</a>
                 </div>
               </div>
             </div>

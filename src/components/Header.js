@@ -22,7 +22,7 @@ const Header = () => {
                                     <h5><a class="nav-link" aria-current="page" href="#aboutme">Sobre mí</a></h5>
                                 </li>
                                 <li class="nav-item text-center">
-                                    <h5><a class="nav-link" href="#skills">Skills</a></h5>
+                                    <h5><a class="nav-link" href="#skills">Habilidades</a></h5>
                                 </li>
                                 <li class="nav-item text-center">
                                     <h5><a class="nav-link" href="#workexperience">Experiencia</a></h5>

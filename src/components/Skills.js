@@ -12,7 +12,7 @@ const Skills = () => {
     return(
         <div id="skills" className="py-5" style={{backgroundColor: "#1190CB"}}>
 
-            <h1 className="text-center text-white mb-5">Skills</h1>
+            <h1 className="text-center text-white mb-5">Habilidades</h1>
 
             <div className="container w-75 mx-auto" >
                 <div class="card-group text-center">
