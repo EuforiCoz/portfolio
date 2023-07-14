@@ -18,7 +18,7 @@ const Skills = () => {
                 <div class="card-group text-center">
                     <CardTechnology img={imghtml} title="HTML5"/>
                     <CardTechnology img={imgcss} title="CSS3"/>
-                    <CardTechnology img={imgjs} title="Javascript"/>
+                    <CardTechnology img={imgjs} title="JavaScript"/>
                     <CardTechnology img={imgbs} title="Bootstrap"/>
                 </div>
 

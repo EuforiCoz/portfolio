@@ -33,7 +33,7 @@ const Projects = () => {
               <div class="col-md-6">
                 <div class="card-body">
                   <h2 class="card-title">Lobelbuy</h2>
-                  <p class="card-text" style={{fontSize: "20px"}}>Es una tienda de segunda mano inspirada en páginas muy conocidas como Wallapop. Tiene chats en tiempo real, reseñas, etc.</p>
+                  <p class="card-text" style={{fontSize: "20px"}}>Es una tienda de segunda mano inspirada en páginas muy conocidas como Wallapop. Tiene chats en tiempo real, reseñas, login, búsquedas, etc. Tiene una base de datos con MySQL</p>
                   <p style={{fontSize: "20px"}}>Realizado con:</p>
                   <div className="d-flex flex-row gap-3">
                     <AiFillHtml5 size="50px"/>
@@ -58,7 +58,7 @@ const Projects = () => {
               <div class="col-md-6">
                 <div class="card-body">
                   <h2 class="card-title">Tienda de videojuegos</h2>
-                  <p class="card-text" style={{fontSize: "20px"}}>Es una tienda de videojuegos que realicé con las tecnologías más basicas</p>
+                  <p class="card-text" style={{fontSize: "20px"}}>Es una tienda de videojuegos que realicé con las tecnologías más basicas. Los datos los guardaba en un fichero JSON y los mostraba en pantalla. </p>
                   <p style={{fontSize: "20px"}}>Realizado con:</p>
                   <div className="d-flex flex-row gap-3">
                     <AiFillHtml5 size="50px"/>
@@ -79,7 +79,7 @@ const Projects = () => {
               <div class="col-md-6">
                 <div class="card-body">
                   <h2 class="card-title">Ruleta de la suerte</h2>
-                  <p class="card-text" style={{fontSize: "20px"}}>Se trata del famoso juego de Antena 3 en el que nos inspiramos porque este proyecto fué en duo.</p>
+                  <p class="card-text" style={{fontSize: "20px"}}>Se trata del famoso juego de Antena3.</p>
                   <p style={{fontSize: "20px"}}>Realizado con:</p>
                   <div className="d-flex flex-row gap-3">
                     <AiFillHtml5 size="50px"/>
@@ -99,7 +99,7 @@ const Projects = () => {
               <div class="col-md-6">
                 <div class="card-body">
                   <h2 class="card-title">Arkanoid</h2>
-                  <p class="card-text" style={{fontSize: "20px"}}>Fue mi primer proyecto y además mi primer juego. Se trata de un videojuego muy conocido llamado Arkanoid. Está hecho con las tecnologías más básicas</p>
+                  <p class="card-text" style={{fontSize: "20px"}}>Fue mi primer proyecto y además mi primer juego. Se trata de un videojuego muy conocido llamado Arkanoid.</p>
                   <p style={{fontSize: "20px"}}>Realizado con:</p>
                   <div className="d-flex flex-row gap-3">
                     <AiFillHtml5 size="50px"/>
