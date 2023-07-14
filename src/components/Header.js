@@ -17,7 +17,7 @@ const Header = () => {
                                 <span className="line"></span>
                             </div>
                         <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
-                            <ul class="navbar-nav d-flex justify-content-end">
+                            <ul class="navbar-nav d-flex justify-content-end gap-2">
                                 <li class="nav-item text-center">
                                     <h5><a class="nav-link" aria-current="page" href="#aboutme">Sobre mí</a></h5>
                                 </li>
