@@ -15,7 +15,7 @@ const AboutMe = () => {
                       <p class="card-text text-center text-muted" style={{fontSize: "22px"}}>Soy un programador web que está empezando en este mundillo. Me gustaría trabajar y ganar experiencia</p>
                       <div className="d-flex flex-row justify-content-center gap-3">
                         <a className="btn text-white fs-5" href="#contactme" style={{backgroundColor: "#1190CB"}}>Contáctame</a>
-                        <span style={{fontSize: "22px"}}> o </span> 
+                        <span className="text-muted" style={{fontSize: "22px"}}> o </span> 
                         <a href="https://www.linkedin.com/in/alejandro-peco-romero-06490521b/" target="_blank"><img src={linkedin} style={{width: "45px"}}/></a>
                       </div>
                       
