@@ -4,11 +4,11 @@ import imgvtlab from "../assets/vtlab.png";
 
 const WorkExperience = () => {
     return(
-        <div id="workexperience">
+        <div id="workexperience" className="container-fluid">
             <h1 className="text-center mb-5">Experiencia</h1>
-            <div class="card-group w-50 mx-auto text-center">
-              <div class="card"  style={{border: 0}}>
-                <img class="card-img-top mx-auto" style={{width: "250px"}} src={imgmakenai} alt="Card image cap"/>
+            <div class="row text-center w-75 mx-auto">
+              <div class="col-md-6 col-xs-12 card" style={{border: 0}}>
+                <img class="card-img-top mx-auto" style={{width: "250px"}}  src={imgmakenai} alt="Card image cap"/>
                 <div class="card-body">
                   <h4 class="card-title">Desarrollador Web</h4>
                   <p class="card-text">Abril 2021 - Junio 2021</p>
@@ -16,7 +16,7 @@ const WorkExperience = () => {
                   <p style={{fontSize: "18px"}}>Desarrollando bots en Microsoft Teams con Microsoft Azure</p>
                 </div>
               </div>
-              <div class="card"  style={{border: 0}}>
+              <div class="col-md-6 col-xs-12 card"  style={{border: 0}}>
                 <img class="card-img-top mx-auto" style={{width: "250px"}} src={imgvtlab} alt="Card image cap"/>
                 <div class="card-body">
                   <h4 class="card-title">Desarrollador Frontend</h4>
