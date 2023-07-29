@@ -10,11 +10,11 @@ import CardTechnology from "./CardTechnology";
 
 const Skills = () => {
     return(
-        <div id="skills" className="py-5" style={{backgroundColor: "#1190CB"}}>
+        <div id="skills" className="skills py-5" style={{backgroundColor: "#1190CB"}}>
 
             <h1 className="text-center text-white mb-5">Habilidades</h1>
 
-            <div className="container w-75 mx-auto" >
+            <div className="container mx-auto" >
                 <div class="card-group text-center">
                     <CardTechnology img={imghtml} title="HTML5"/>
                     <CardTechnology img={imgcss} title="CSS3"/>

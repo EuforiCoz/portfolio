@@ -33,8 +33,8 @@ const Projects = () => {
               <div class="col-md-6">
                 <div class="card-body">
                   <h2 class="card-title">Lobelbuy</h2>
-                  <p class="card-text" style={{fontSize: "20px"}}>Es una tienda de segunda mano inspirada en páginas muy conocidas como Wallapop. Tiene chats en tiempo real, reseñas, login, búsquedas, etc. Tiene una base de datos con MySQL</p>
-                  <p style={{fontSize: "20px"}}>Realizado con:</p>
+                  <p class="card-text" style={{fontSize: "20px"}}>Es una tienda de segunda mano inspirada en páginas muy conocidas como Wallapop, segundamano.es, etc. Contiene chats en tiempo real, reseñas, login, búsquedas, etc. Tiene una base de datos con MySQL</p>
+                 
                   <div className="d-flex flex-row gap-3">
                     <AiFillHtml5 size="50px"/>
                     <IoLogoCss3 size="50px"/>
@@ -44,7 +44,7 @@ const Projects = () => {
                     <BiLogoNodejs size="50px"/>
                     <SiMysql size="50px"/>
                   </div>
-                  <a className="btn mt-4" href="https://frontend-lobelbuy-pa8s.onrender.com/" target="_blank" style={{backgroundColor: "white", color: "#1190CB"}}>Ver proyecto</a>
+                  <a className="btnVerProyecto btn mt-4" href="https://frontend-lobelbuy-pa8s.onrender.com/" target="_blank" >Ver proyecto</a>
                 </div>
               </div>
             </div>
@@ -58,15 +58,15 @@ const Projects = () => {
               <div class="col-md-6">
                 <div class="card-body">
                   <h2 class="card-title">Tienda de videojuegos</h2>
-                  <p class="card-text" style={{fontSize: "20px"}}>Es una tienda de videojuegos que realicé con las tecnologías más basicas. Los datos los guardaba en un fichero JSON y los mostraba en pantalla. </p>
-                  <p style={{fontSize: "20px"}}>Realizado con:</p>
+                  <p class="card-text" style={{fontSize: "20px"}}>Es una tienda de videojuegos hecho con las tecnologías más basicas. Los datos se guardan en un fichero JSON y se muestran en pantalla. </p>
+                  
                   <div className="d-flex flex-row gap-3">
                     <AiFillHtml5 size="50px"/>
                     <IoLogoCss3 size="50px"/>
                     <BiLogoJavascript size="50px"/>
                     <BsFillBootstrapFill size="50px"/>
                   </div>
-                  <a className="btn mt-4" href="https://64b084cf7f7c045176dc78c2--heartfelt-kangaroo-121bcd.netlify.app/" target="_blank" style={{backgroundColor: "white", color: "#1190CB"}}>Ver proyecto</a>
+                  <a className="btnVerProyecto btn mt-4" href="https://64b084cf7f7c045176dc78c2--heartfelt-kangaroo-121bcd.netlify.app/" target="_blank">Ver proyecto</a>
                 </div>
               </div>
             </div>
@@ -79,14 +79,14 @@ const Projects = () => {
               <div class="col-md-6">
                 <div class="card-body">
                   <h2 class="card-title">Ruleta de la suerte</h2>
-                  <p class="card-text" style={{fontSize: "20px"}}>Se trata del famoso juego de Antena3.</p>
-                  <p style={{fontSize: "20px"}}>Realizado con:</p>
+                  <p class="card-text" style={{fontSize: "20px"}}>El proyecto consiste en el famoso juego de Antena3 llamado la Ruleta de la suerte.</p>
+                  
                   <div className="d-flex flex-row gap-3">
                     <AiFillHtml5 size="50px"/>
                     <IoLogoCss3 size="50px"/>
                     <BiLogoJavascript size="50px"/>
                   </div>
-                  <a className="btn mt-4" style={{backgroundColor: "white", color: "#1190CB"}} href="https://64b087b734d49656b598b184--bucolic-lollipop-0e8c9c.netlify.app/menu.html" target="_blank">Ver proyecto</a>
+                  <a className="btnVerProyecto btn mt-4" href="https://64b087b734d49656b598b184--bucolic-lollipop-0e8c9c.netlify.app/menu.html" target="_blank">Ver proyecto</a>
                 </div>
               </div>
             </div>
@@ -99,14 +99,14 @@ const Projects = () => {
               <div class="col-md-6">
                 <div class="card-body">
                   <h2 class="card-title">Arkanoid</h2>
-                  <p class="card-text" style={{fontSize: "20px"}}>Fue mi primer proyecto y además mi primer juego. Se trata de un videojuego muy conocido llamado Arkanoid.</p>
-                  <p style={{fontSize: "20px"}}>Realizado con:</p>
+                  <p class="card-text" style={{fontSize: "20px"}}>Fue el primer proyecto que realicé. Se trata de un videojuego muy conocido llamado Arkanoid.</p>
+                  
                   <div className="d-flex flex-row gap-3">
                     <AiFillHtml5 size="50px"/>
                     <IoLogoCss3 size="50px"/>
                     <BiLogoJavascript size="50px"/>
                   </div>
-                  <a className="btn mt-4" style={{backgroundColor: "white", color: "#1190CB"}} href="https://64b148b97a9b59165499238e--glittering-cocada-7152bf.netlify.app/" target="_blank">Ver proyecto</a>
+                  <a className="btnVerProyecto btn mt-4" href="https://64b148b97a9b59165499238e--glittering-cocada-7152bf.netlify.app/" target="_blank">Ver proyecto</a>
                 </div>
               </div>
             </div>

@@ -137,6 +137,49 @@
     fill: #1190CB;
 }
 
+.carousel-inner img{
+    height: 300px;
+}
+
+@media (max-width: 1200px) {
+    .carousel-inner img{
+        height: 200px;
+    }
+  }
+
+.aboutme{
+    width: 50%;
+}
+
+.skills .container {
+    width: 75%;
+}
+
+@media only screen and (max-width: 992px) {
+    .aboutme{
+        width: 80%;
+    }
+
+    .skills .container {
+        width: 100%;
+    }
+  }
+
+  .btnVerProyecto {
+    background-color: white;
+    color: #1190CB;
+    padding: 7px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+  }
+
+.btnVerProyecto:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Un fondo blanco transparente */
+    color: white; /* Letras en color blanco */
+    border-color: white; /* Borde en color blanco */
+  }
+
 
 
   

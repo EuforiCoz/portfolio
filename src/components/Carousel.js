@@ -12,13 +12,13 @@ const Carousel = ({carrouselId, img1, img2, img3}) =>{
             </ol>
             <div class="carousel-inner" role="listbox">
                 <div class="carousel-item active">
-                    <img src={img1} class="w-75 d-block mx-auto" style={{height: "300px"}} alt="First slide"/>
+                    <img src={img1} class="w-75 d-block mx-auto"  alt="First slide"/>
                 </div>
                 <div class="carousel-item">
-                    <img src={img2} class="w-75 d-block mx-auto" style={{height: "300px"}} alt="Second slide"/>
+                    <img src={img2} class="w-75 d-block mx-auto"  alt="Second slide"/>
                 </div>
                 <div class="carousel-item">
-                    <img src={img3} class="w-75 d-block mx-auto" style={{height: "300px"}} alt="Third slide"/>
+                    <img src={img3} class="w-75 d-block mx-auto"  alt="Third slide"/>
                 </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target={carrousel} data-bs-slide="prev">

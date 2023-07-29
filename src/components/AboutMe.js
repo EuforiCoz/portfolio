@@ -3,16 +3,17 @@ import linkedin from "../assets/linked.png"
 
 const AboutMe = () => {
     return(
-        <div id="aboutme" className="pt-5 w-50 mx-auto">
+        <div id="aboutme" className="aboutme pt-5 mx-auto">
             <div class="mb-3">
                 <div class="row g-0">
-                  <div class="col-md-4 m-auto">
+                  <div class="col-md-5 m-auto">
                     <img src={fotoCV} style={{width: "100%"}} class=" rounded-circle" alt="Card title"/>
                   </div>
-                  <div class="col-md-8 my-auto">
+                  <div class="col-md-7 my-auto">
                     <div class="card-body text-center">
                       <h1 class="card-title text-center ">Alejandro Javier Peco Romero</h1>
-                      <p class="card-text text-center text-muted" style={{fontSize: "22px"}}>Soy un programador web que está empezando en este mundillo. Me gustaría trabajar y ganar experiencia</p>
+                      <p className="text-center m-0 pb-3" style={{fontSize: "22px"}}>Desarrollador Frontend</p>
+                      <p class="card-text text-center text-muted pb-4" style={{fontSize: "24px"}}>Ofrezco las mejores soluciones con las tecnologías más usadas en la actualidad con HTML, CSS y JavaScript. A día de hoy sigo obteniendo más conocimientos de programación y en reforzar lo aprendido</p>
                       <div className="d-flex flex-row justify-content-center gap-3">
                         <a className="btn text-white fs-5" href="#contactme" style={{backgroundColor: "#1190CB"}}>Contáctame</a>
                         <span className="text-muted" style={{fontSize: "22px"}}> o </span> 
