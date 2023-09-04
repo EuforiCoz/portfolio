@@ -6,7 +6,6 @@ import imgreact from "../assets/react.png";
 import imgphp from "../assets/php.png";
 import imgnode from "../assets/node.png";
 import imgmysql from "../assets/mysql.png";
-import java from "../assets/javaimg.png";
 import CardTechnology from "./CardTechnology";
 
 const Skills = () => {
@@ -28,7 +27,6 @@ const Skills = () => {
                     <CardTechnology img={imgphp} title="PHP"/>
                     <CardTechnology img={imgnode} title="Nodejs"/>
                     <CardTechnology img={imgmysql} title="MySQL"/>
-                    <CardTechnology img={java} title="Java"/>
                 </div>
             </div>
         </div>
